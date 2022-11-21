@@ -7,7 +7,7 @@ import requests
 from util.operation_json import OperationJson
 from base.md51 import sing_md5
 import base.md5_32
-from config.redis127 import redis127
+from config1.redis127 import redis127
 import time
 class DependentData:
     """解决数据依赖问题"""

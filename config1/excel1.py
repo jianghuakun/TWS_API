@@ -6,7 +6,7 @@ import json
 from xlutils.copy import copy
 #xlrd只适合xls表格。xlsx表格需要使用其他函数
 class excel1():
-    path = r'D:\python\python36-64\project\TWS-API\dataconfig\1.xls'
+    path = r'D:\PyCharm2022.1.3\project\TWS_API.git\dataconfig\1.xls'
     excel1 = xlrd.open_workbook(path)
     sheet_read = excel1.sheets()[1]
     nrows = sheet_read.nrows

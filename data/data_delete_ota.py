@@ -1,6 +1,6 @@
 import pymysql
-from config.mysql127 import db127
-from config.redis127 import redis127
+from config1.mysql127 import db127
+from config1.redis127 import redis127
 #本方法为删除测试数据
 class data_delete_ota:
     def user_delete(self):
