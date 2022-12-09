@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 import json
 import unittest
-from config.HTMLTestRunner import HTMLTestRunner
+from config1.HTMLTestRunner import HTMLTestRunner
 import time
 # 相对路径
 test_dir =r'./'
 test_dir1 =r'./report'
-discover = unittest.defaultTestLoader.discover(test_dir, pattern='test_sta*.py')
+discover = unittest.defaultTestLoader.discover(test_dir, pattern='test_heal*.py')
 if __name__ == '__main__':
     # 定义带有当前测试时间的报告，防止前一次报告被覆盖
     now = time.strftime("%Y-%m-%d %H_%M_%S")

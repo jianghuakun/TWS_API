@@ -13,7 +13,7 @@ def code(request_data):
     res= run_method.run_main(method, url, request_data, herders)
     #print(111,res)
     re1=res["retstring"]["params"]
-    #print(222,re1)
+    print(222,re1)
     return re1
 def gettoken(params):
     method = 'POST'
@@ -41,7 +41,7 @@ herders = {'content-type': 'application/json;charset=utf-8',
                }
 
 token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2Njg3NTI4ODQsIm5iZiI6MTY2ODc1Mjg4NCwiZXhwIjoxNjY5MzU3Njg0LCJkYXRhIjp7InBsYXRmb3JtaWQiOiIyMDEyNSIsInVzZXJpZCI6IkhQMDAxYWViOWZhMSJ9fQ.gxCXDatxMPd4FSnVg9IqLZCYr0eTpiYArwVEaM-CaGM"
-
+'''
 #血氧概要上传
 summget_save={
     "platformid":"FDHP001",
@@ -313,5 +313,7 @@ res = run_method.run_main("POST", url, request_data1, herders)
 print("获取压力数据统计信息（日、周、月、年）",res)
 
 #周月年报
+'''
+
 
 
